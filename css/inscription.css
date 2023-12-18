@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url(./téléchargement.jpeg);
+    background: url(../image/téléchargement.jpeg);
     background-position: center;
     background-size: cover;
     display: flex;
