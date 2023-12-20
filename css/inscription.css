@@ -1,9 +1,5 @@
-* {
-    font-family: 'Inter', sans-serif;
-}
-
 body {
-    background: url(../image/téléchargement.jpeg);
+    background: url(../image/bateau-lac-montagnes-arriere-plan_865967-5725.avif);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -14,30 +10,31 @@ body {
 }
 
 .wrapper {
-    width: 600px;
+    width: 450px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
     box-shadow:  10px rgba(0, 0, 0, .2);
     color: white;
     border-radius: 10px;
-    padding: 30px 40px;
+    /* padding: 30px 40px; */
 }
 .wrapper h1 {
    font-size: 36px; 
    text-align: center;
-   color: purple;
+   color: red;
 
 }
 
 .wrapper .input-box {
     position: relative;
-    width: 100%;
-    height: 50px;
+    width: 90%;
+    height: 0px;
     margin: 30px;
     display: flex;
-    padding: 30px;
-    gap: 30px;    
+    padding: 20px;
+    gap: 30px;
+
 }
 
 .input-box input {
@@ -47,22 +44,21 @@ body {
     border: none;
     outline: none;
     border: 2px solid rgba(255, 255, 255, .2);
-    border-radius: 40px;
-    font-size: 16px;
+    /* border-radius: 40px; */
+    font-size: 12px;
     color: white;
     padding: 20px 45px 20px 20px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: white;
+    margin-right: 20px;
+
 }
 
 .input-box input::placeholder {
     color: white;
-}
-
-.input-box i {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px;
+    font-size: 10px;
 }
 
 .wrapper .remember-forgot {
@@ -71,17 +67,14 @@ body {
     margin: -15px 0 15px;
 }
 .wrapper .button {
-    width: 100%;
+    width: 50%;
     height: 45px;
-    background:white;
+    background: rgb(231, 12, 12);
     border: none;
-    outline: none;
     border-radius: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    cursor: pointer;
     font-size: 16px;
-    color: purple;
-    font-weight: 600;
+    margin-left: 30%;
 }
 
 .wrapper .register-link {
@@ -90,13 +83,14 @@ body {
     margin: 20px 0 15px;
 }
 
-.register-link p a {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-}
 
 .register-link p a:hover {
     text-decoration: underline;
-    color: purple;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
 }
